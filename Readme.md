@@ -17,3 +17,6 @@ Run app:
 ```shell
 python3.8 main.py
 ```
+
+CSV file format:
+size (bytes), duration (ns)
