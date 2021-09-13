@@ -16,7 +16,7 @@ class Downloader(Thread):
         self.notify_progress = notify_progress
         self.csv_file_name = csv_file_name
         if csv_file_name != None:
-            self.csv_file_name += datetime.now().strftime("_%d%m%y_%H%M%S") + ".csv"
+            self.csv_file_name += datetime.now().strftime("%d%m%y_%H%M%S") + ".csv"
         Thread.__init__(self)
 
     def download(self, uri):

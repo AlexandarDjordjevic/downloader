@@ -17,7 +17,7 @@ class Plot():
         self.run = True
         self.output_file = output_file
         if output_file != None:
-            self.output_file += datetime.now().strftime("_%d%m%y_%H%M%S") + ".png"
+            self.output_file += datetime.now().strftime("%d%m%y_%H%M%S") + ".png"
         self.lock = Lock()
         
     def insert(self, value):
