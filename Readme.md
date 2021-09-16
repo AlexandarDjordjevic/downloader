@@ -1,12 +1,12 @@
 # Test app
 
-For plot install matplotlib
+Installing matplotlib
 
 ```shell
 sudo apt-get install python3-matplotlib 
 ```
 
-For downloader install pycurl
+Installing pycurl
 
 ```shell
 sudo apt-get install python3-pycurl
